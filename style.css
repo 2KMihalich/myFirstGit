@@ -1,0 +1,245 @@
+*{box-sizing: border-box;
+    font-family:Gilroy-Bold;}
+body{max-width: 1445px;}
+    header {
+    width: 100%; 
+    
+}
+a{
+    text-decoration:none;
+    }
+nav{
+    height: 76px;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight:bolder;
+    border-bottom: 1px solid #828282;  
+    
+}
+.header_ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-inline-start:0;    
+}
+
+nav a:hover{
+    color: rgb(216, 29, 29);
+    font-size: 30px;
+    transition-property: font-size;
+    transition-duration: 0.1s;
+}
+nav a:active {
+    color: rgb(1, 14, 14);
+    }
+
+.burger{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 15px;   
+    min-width: 375px;
+}
+.container_text{
+    width: 100%;
+    position: relative;
+}
+.text_name{
+    font-size: 47px;
+    line-height: 59px;
+    display: inline-block;
+    font-weight:bolder;
+    width: 50%; 
+}
+.text_old{
+    font-size: 18px;
+    line-height: 22px;
+    display: inline-block;
+    width: 49%;
+}
+.text_language{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+
+    transform-origin:left;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: -45px;
+    bottom: 0;
+}
+.container_photo{
+    max-width: 960px;
+    height: 387px;
+    margin-top: 35px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.container_about{
+    width: 100%;
+    max-width: 960px;  
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.span_about{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight:bolder;
+    display: block; 
+    margin-bottom: 15px;
+    
+    
+}
+.span_info{
+    display: inline-block; 
+    max-width: 485px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.container_skills{
+    width: 100%;
+    max-width: 960px;  
+    text-align: center;
+    margin: 0 auto;
+    
+    padding: 90px;
+}
+.span_skills{
+    font-size: 34px;
+    line-height: 42px;   
+    font-weight:bolder; 
+    margin-bottom: 50px;
+}
+.skills_img{
+    display: flex;
+    max-width:140px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.skills_stars{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.inContainer_skills{
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    flex-wrap: wrap;
+    margin-top: 73px;
+}
+.container_portfolio{
+    width: 100%;
+    max-width: 960px;  
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.span_portfolio{
+    font-size: 34px;
+    line-height: 42px;   
+    font-weight:bolder; 
+    margin-bottom: 50px;}
+    
+.portfolio_photo{
+    margin-top: 50px;
+    margin-bottom:30px ;
+}
+.a_portfolio{
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+    text-decoration:underline ;
+    margin-bottom:50px ;
+}
+.container_contacts{
+    width: 100%;
+    max-width: 960px;  
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.span_contacts{
+    font-size: 34px;
+    line-height: 42px;   
+    font-weight:bolder; 
+    margin-bottom: 80px;}
+.p_info{
+    display: inline-block; 
+    max-width: 485px;
+    width: 100%;
+    
+    
+    }
+.contacts_icon {
+    display: flex;
+    max-width: 342px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+    @font-face {
+        
+        font-family: "Gilroy-Bold"; 
+        src: url("gilroy-regular.ttf") format("truetype"); 
+        font-style: normal; 
+        font-weight: normal; }
+
+@media  (max-width:475px){
+.text_name{
+    font-size: 47px;
+    line-height: 59px;
+    display: block;
+    font-weight:bolder;  
+    
+}
+.text_old{
+    font-size: 18px;
+    line-height: 22px;
+    display:block;
+    width: 49%;
+}
+header {
+    display: none;   
+}
+.text_language{
+    display: none;
+}
+.burger{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container_photo{
+    max-width: 960px;
+    margin-top: 35px; 
+    margin-bottom: 35px;
+}
+.inContainer_skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 960px;
+    
+}
+}
